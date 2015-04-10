@@ -1,0 +1,101 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1">
+        <TextView
+        android:id="@+id/main_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/main_textview"
+        android:textSize="32sp"
+        android:layout_gravity="center_horizontal"
+        style="@style/Base.TextAppearance.AppCompat.Headline"
+        android:textColor="#ffff0000" />
+
+        <TextView
+        android:id="@+id/main_textview_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/main_textview_1"
+        android:textSize="24sp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ff0600ff" />
+
+        <!-- Set OnClickListener to trigger results when pressed -->
+        <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_activity_VLC_SETUP"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp" />
+
+        <TextView
+        android:id="@+id/main_textview_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_textview_2"
+        android:textSize="24sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textColor="#ff0500ff" />
+
+        <!-- Set OnClickListener to trigger results when pressed -->
+        <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_activity_PC_SETUP"
+        android:id="@+id/button2"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp" />
+
+        <TextView
+        android:id="@+id/main_textview_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_textview_3"
+        android:textSize="24sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textColor="#ff000cff" />
+
+        <EditText android:id="@+id/name"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp" />
+
+        <TextView
+            android:id="@+id/main_textview_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/main_textview_4"
+            android:textSize="24sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:textColor="#ff000cff" />
+
+        <EditText android:id="@+id/password"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberPassword"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp" />
+
+        <!-- Set OnClickListener to trigger results when pressed -->
+        <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_activity_remote_view"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"/>
+
+    </TableLayout>
+    </ScrollView>

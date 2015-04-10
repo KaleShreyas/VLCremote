@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shreyaskale.vlcremote" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/hello_world" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Tutorial_1"
+            android:label="@string/title_activity_tutorial_1"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".Tutorial_2"
+            android:label="@string/title_activity_tutorial_2"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".Remote_view"
+            android:label="@string/title_activity_remote_view"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".AboutUs"
+            android:label="@string/title_activity_about_us"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+    </application>
+
+</manifest>

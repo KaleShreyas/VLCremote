@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">VLCremote</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_about_us">About us</string>
+
+    <string name="main_textview">Follow the below tutorials</string>
+    <string name="main_textview_4">Enter password below</string>
+    <string name="main_textview_3">Input IP address below</string>
+    <string name="main_textview_2">Click below to learn the PC setup</string>
+    <string name="main_textview_1">Click below to learn the VLC setup</string>
+    <string name="title_activity_tutorial_1">VLC TUTORIAL</string>
+    <string name="title_activity_tutorial_2">PC TUTORIAL</string>
+    <string name="title_activity_remote_view">REMOTE VIEW</string>
+    <string name="title_activity_VLC_SETUP">VLC SETUP</string>
+    <string name="title_activity_PC_SETUP">PC SETUP</string>
+    <string name="title_activity_about_us">AboutUs</string>
+
+    <string name="hello_world">VLCremote App</string>
+    <string name="hello"> MADE BY: SHREYAS KALE, SURABHI MAITI, PARAG BAVISKAR</string>
+    <string name="subject">NETWORK PROGRAMMING LABORATORY and MOBILE COMMUNICATION AND COMPUTING</string>
+    <string name="rights">copyrights @ TerrificSK</string>
+    <string name="title_activity_remote">Remote</string>
+    <string name="title_activity_splash">Splash</string>
+</resources>
