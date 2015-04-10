@@ -27,17 +27,12 @@ public class Remote_view extends ActionBarActivity {
 
         // 2. Get message value from intent
         String url = intent.getStringExtra("ip");
-        //String pass = intent.getStringExtra("pass");
-        //String url2 ="http://:"+pass+"@"+url+":8080";
         String url2 ="http://"+url+":8080";
 
         //Loading WebView from user input IP address
         WebView webView = (WebView)findViewById(R.id.webView3);
         webView.setWebViewClient(new MyWebViewClient ());
         webView.loadUrl(url2);
-        //webView.setWebChromeClient(new WebChromeClient());
-        //webView.clearCache(true);
-        //webView.clearHistory();
         webView.getSettings().setJavaScriptEnabled(true);
         webView.getSettings().setJavaScriptCanOpenWindowsAutomatically(true);
     }
